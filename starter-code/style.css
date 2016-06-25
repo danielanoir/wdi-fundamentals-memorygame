@@ -1,3 +1,80 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+
+
+
+nav {
+	background-color: #808080;
+     }
+
+header {
+	text-align: center;
+}
+
+/*need to correct nav.clearfix:after*/
+nav.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+/*A bullet is showing up and the blocks aren't lined up properly*/
+li a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	float: left;
+	display: block;
+}
+
+div.board {
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin: 8%;
+}
+
+p {
+	text-align: center;
+}
+
+a:hover {
+    color: ee5f3c;
+}
+
+div.card {
+	height: 200px;
+	width: 150px;
+	background-color: yellow;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+h2 {
+	color: #ffd700;
+}
+h1 {
+	color: rgb(2, 132, 130);
+}
+
+span.name {
+	color: #ff0000;
+}
+
+footer {
+display: block;
+clear: both;
+margin: 0;
+padding-top: 25px;
+background-color: #808080;
+font-size: 30px;
+text-align: center;
+}
